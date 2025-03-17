@@ -33,7 +33,7 @@ public:
 
     Square_calculation();
 
-    bool operator>(const Building& other) const{
+    bool Building::operator>(const Building& other) const{ //(реалиизация) - должна быть не тут
         return height > other.height;
     }
 
